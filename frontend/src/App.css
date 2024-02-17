@@ -1,0 +1,13 @@
+input {
+  border-radius: 123px;
+  border: 2px solid black;
+  width: 15rem;
+  height: 2.7rem;
+  margin: 5rem;
+}
+.title {
+  font-size: 3.4rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 800;
+  color: darkred;
+}
