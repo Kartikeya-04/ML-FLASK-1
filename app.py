@@ -13,7 +13,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 def predict():
     try:
         data = request.get_json()
-        data = dict(data)
+        # data = dict(data)
         print("Received data:", data) 
         print('done1')
         height = float(data['height'])
